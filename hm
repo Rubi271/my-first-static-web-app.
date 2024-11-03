@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Environment Website</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #42b883;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #42b883;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Environment Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Home</h2>
+        <ul>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="pollution.html">Pollution</a></li>
+            <li><a href="deforestation.html">Deforestation</a></li>
+            <li><a href="sd.html">Sustainable Development</a></li>
+        </ul>
+    </section>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Content related to introduction to environmental issues and initiatives can go here.</p>
+    </section>
+
+    <section id="pollution">
+        <h2>Pollution</h2>
+        <p>Information about various types of pollution and their impact on the environment.</p>
+    </section>
+
+    <section id="deforestation">
+        <h2>Deforestation</h2>
+        <p>Content addressing deforestation problems, causes, and potential solutions.</p>
+    </section>
+
+    <section id="sustainable-development">
+        <h2>Sustainable Development</h2>
+        <p>Information about sustainable practices and their role in environmental conservation.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Environment Website</p>
+    </footer>
+</body>
+</html>
